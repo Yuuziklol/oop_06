@@ -68,7 +68,7 @@ public abstract class Human implements GameInterfase {
     }
     @Override
     public String getInfo() {
-        return "";
+        return "Я человек!" + "HP: " + this.hp;
     }
 
 }

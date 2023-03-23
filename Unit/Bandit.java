@@ -16,13 +16,9 @@ public class Bandit extends Warrior {
 
     public void steal(int disguise, Shooter Shooter) {
     }
-
-//     @Override
-//     public StringBuilder getInfo() {
-//         StringBuilder builder = new StringBuilder();
-//         return builder.append("Бандит: \t").append(Bandit.super.name)
-//                 .append("\t| ATK:\t").append(Bandit.super.attack)
-//                 .append("\t| HP:\t").append(Bandit.super.hp)
-//                 .append(" \t|\t\t\t|").append("\t| (X.Y) : ").append(Bandit.super.coords.posX).append(".").append(Bandit.super.coords.posY);
-//     }
+    
+    @Override
+    public String getInfo() {
+        return "Разбойник";
+    }
 }
